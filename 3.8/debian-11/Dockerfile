@@ -1,6 +1,6 @@
 FROM docker.io/bitnami/minideb:bullseye
 ENV HOME="/" \
-    OS_ARCH="amd64" \
+    OS_ARCH="arm" \
     OS_FLAVOUR="debian-11" \
     OS_NAME="linux" \
     PATH="/opt/bitnami/common/bin:/opt/bitnami/java/bin:/opt/bitnami/zookeeper/bin:$PATH"
