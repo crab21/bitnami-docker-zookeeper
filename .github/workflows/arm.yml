@@ -27,7 +27,7 @@ jobs:
           docker build --no-cache -t  bitnami-zk:v1 .
           docker save -o bitnami-zk.tar bitnami-zk:v1 
           ls -allh
-          cd ../
+          cd ../../
        - name: Create Release
          id: create_release
          uses: actions/create-release@v1
